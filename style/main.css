@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul_Escuro: #2a475e;
+    --preto: #171a21;
+    --branco: white;
+}
+
+/* Elementos Base */
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--branco);
+    font-family: 'Arial Black', Times;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #b9b9b9;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: var(--branco);
+}
+
+/* Jogo Destaque */
+
+.jogo-destaque{
+    font-size: 15px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/god_of_war_capa.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.jogo-destaque .titulo{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5%;
+}
+.jogo-destaque .descricao{
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.botao{
+    background-color: rgba(16, 124, 16);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 14px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao i{
+    margin-right: 5px;
+}
+.botao:hover{
+    background-color: white;
+    color: rgba(16, 124, 16);
+}
