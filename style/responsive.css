@@ -1,0 +1,23 @@
+@media screen and (max-width: 920px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+    .item{
+        max-height: 380px;
+        transition: transform 500ms;
+           
+    }
+    .item img{
+        max-height: 100%;
+    }
+}
+@media  screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}
