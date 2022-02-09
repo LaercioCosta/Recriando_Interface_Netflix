@@ -44,8 +44,11 @@
         margin-top: 8%;
     }
     .botao{
-        margin-top: 20px;
-        width: 40%;
+        margin-top: 8%;
+        width: 50%;
+        height: 1%;
+        
+        font-size: 12px;
     }
     .item img{
         height: 600px;
